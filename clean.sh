@@ -8,5 +8,5 @@ rm dic/additional/*.bin
 rm dic/additional/*.dic
 rm source/additional/*.csv
 rm source/system/*.csv
-rm source/neologd/*
 rm source/system/matrix.def
+rm -rf source/neologd/

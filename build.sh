@@ -28,6 +28,9 @@ else
 fi
 cd ..
 
+if [ ! -d "source/neologd" ]; then
+    mkdir "source/neologd/"
+fi
 for file in mecab-ipadic-neologd/seed/*.xz; do
     xz -dc "$file" > "source/neologd/$(basename -s .xz $file)"
 done
