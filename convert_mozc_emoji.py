@@ -4,7 +4,6 @@ import csv
 ROOT_PATH = os.path.dirname(__file__)
 SOURCE_PATH = os.path.join(ROOT_PATH, "mozc/src/data/emoji/emoji_data.tsv")
 OUTPUT_PATH = os.path.join(ROOT_PATH, "source/system/emoji.csv")
-SOURCE_PATH = "/home/mojyack/working/mecab-as-kkc/mozc/src/data/emoji/emoji_data.tsv"
 
 def main():
     with open(SOURCE_PATH, newline = '') as source, open(OUTPUT_PATH, 'w', newline = '') as dest:
