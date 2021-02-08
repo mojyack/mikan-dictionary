@@ -6,6 +6,6 @@ if [ $# -eq 0 ]; then
 fi
 
 if [ ! -d "$1" ]; then
-    mkdir "$1"
+    mkdir -p "$1"
 fi
 cp -r dic $1
