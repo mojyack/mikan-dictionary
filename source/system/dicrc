@@ -1,0 +1,6 @@
+dictionary-charset = utf-8
+cost-factor = 800
+bos-feature = BOS/EOS
+
+node-format = %H
+unk-format = %M
