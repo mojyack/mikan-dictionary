@@ -1,4 +1,4 @@
-#/usr/bin/bash
+#/bin/bash
 
 # update mozc repository.
 if [ ! -d mozc ]; then
